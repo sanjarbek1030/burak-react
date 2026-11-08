@@ -43,7 +43,12 @@ class Test extends Component {
             Color: {this.state.color} - Model: {this.state.model}
             from {" "} {this.state.year}.
           </p>
+          <button type="button" onClick={this.changeDetail}>
+            Change Detail
+          </button>
         </div>
       );
     }
   }
+
+  export default Test;
